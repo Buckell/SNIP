@@ -16,7 +16,7 @@ like whether windows/doors are open/closed, temperature, if lights or other devi
 
 ### Schema/Version 1
 
-✅ - Denotes implemented features.
+> ✅ - Denotes implemented features.
 
 ---
 ## Machine Types
@@ -40,7 +40,7 @@ There are two types of methods, those intended to be sent to a slave by the mast
 the master by the slave. The first kind, master to slave, will be denoted **MTS**. The second kind, slave to master,
 will be denoted **STM**.
 
-**Note:** Response versions of methods have `-RESPONSE` appended to the method name. For example, the response method
+> **Note:** Response versions of methods have `-RESPONSE` appended to the method name. For example, the response method
 name to `EXECUTE` is `EXECUTE-RESPONSE`. The `State` header may be used to link a response to its original request.
 
 ---
